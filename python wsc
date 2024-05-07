@@ -1,0 +1,11 @@
+# Greetings
+print ("Hello, Welcome to Our Quiz V .1 ")
+input( "May I know your name?")
+#Response 1
+input ("I will ask you a few questions and you should be able to answer those questions")
+#First Question
+answer = input("What is the capital of Australia?")
+
+if  answer == "Canberra": 
+    "Canberra"
+print ("The answer is" , "Canberra")  

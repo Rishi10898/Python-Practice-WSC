@@ -23,7 +23,7 @@ input("")
 print ("What's the capital of New Zealand and what's the national Language of New Zealand")
 input("")
 Anwer_2 = Wellington and Maori/English/NZ Sign Language
-if Anwer_2:
+if Anwer_2:?
     print("Correct")
 if Anwer_2 !=  Wellington and Maori/English/NZ Sign Language
 print ("Wrong Answer")
