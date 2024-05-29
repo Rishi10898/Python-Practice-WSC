@@ -1,0 +1,8 @@
+def create_password():
+    Password_Create = input("Pls create your password here...")
+def typein_password():
+    Password_input = input("Pls type in your password here...")
+    if Password_input == create_password:
+        return
+    else:
+        print("Oops!.Try Again")

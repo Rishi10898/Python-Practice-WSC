@@ -4,15 +4,20 @@ def intro():
     name = input("What's your name?")
     print("Welcome to this quiz,", name)
     print("Do you know the 10 largesst countries in the world?, if so can you name them?")
-def create_password():
-    Password_Create = input("Pls create your password here...")
-def typein_password():
-    Password_input = input("Pls type in your password here...")
-    if Password_input == create_password:
-        return
-    else:
-        print("Oops!.Try Again")
+def get_Passes():
+    passes_user = input("How many chances do you want?")
+    try: 
+        passes_user = int(passes_user)
+        if passes_user >= 0:
+            return passes_user
+        else:
+            print("Pls type in a positive number")
+    except:
+        print("Invalid nummber of passes")
+Largest_Countries_in_the_World = ["Russia", "Canada", "China", "United States", "Brazil", "Australia", "India", "Argentina", "Kazakhstan", "Algeria"]
+score = 0
+while get_Passes() > 0:
+    answer = input("Name one of the top 10 biggest countries in the world").lower()
 #------MAIN FUNCTIONS------ 
 intro()
-create_password()
-typein_password()
+get_Passes()
