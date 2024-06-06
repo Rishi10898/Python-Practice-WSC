@@ -1,3 +1,7 @@
+def intro():
+    name = input("What's your name?")
+    print("Welcome to this quiz,", name)
+    print("Do you know all the places in Tamil Nadu?, if so can you name them?")
 def create_password():
     Password_Create = input("Pls create your password here...")
 def typein_password():
