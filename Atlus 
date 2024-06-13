@@ -1,12 +1,14 @@
 #Greetings
 def intro():
     Greet_1 = input ("What's your name?")
-    Greet_2 = input("Hi, Welcome.This is an Atlas Game only within Tamil Nadu")
+    Greet_2 = input("Hi, Welcome.This is an Atlas Game only within Auckland District")
 def rule():
     Rule_0 = print("")
     Rule_1 = print("Only 3 chances are allowed if you dont know the answer")
     Rule_2 = print("You have to tell suburb names only in Auckland") 
     Rule_3 = print("You have to tell a suburb name") 
+intro()
+rule()
 input ("What letter do we start now with?") 
 print ("start pls")
 input () 
