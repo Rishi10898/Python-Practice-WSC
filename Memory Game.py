@@ -26,6 +26,39 @@ def memory_game_sart():
     User_topic = input("Which topic based on which you want to play now?")
     if User_topic == "World" or " World" or "India" or " India" or "USA" or " USA":
         print()
+# Indian States and its Capitals
+Starts_with_A = ["Andhra Pradesh","Amaravati","Arunachal Pradesh","Assam","Aizawl","Agartala"]
+Starts_with_B = ["Bangalore","Bhopal","Bihar","Bhubaneshwar"]
+Starts_with_C = ["Chandigarh","Chhattisgarh","Chennai","Chandigarh"]
+Starts_with_D = ["Dispur","Dehradun"]
+Starts_with_G = ["Gujarat","Gandhinagar","Goa","Gangtok"]
+Starts_with_H = ["Haryana","Himachal Pradesh","Hyderabad"]
+Starts_with_I = ["Itanagar","Imphal"]
+Starts_with_J = ["Jharkhand","Jaipur"]
+Starts_with_K = ["Karnataka","Kerala","Kohima","Kolkata"]
+Starts_with_L = "Lucknow"
+Starts_with_M = ["Madhya Pradesh","Maharashtra","Mumbai","Manipur","Meghalaya","Mizoram"]
+Starts_with_N = "Nagaland"
+Starts_with_O = "Odisha"
+Starts_with_P = ["Patna","Punjab","Panaji"]
+Starts_with_R = ["Rajasthan","Ranchi","Raipur"]
+Starts_with_S = ["Shimla","Shillong","Sikkim"]
+Starts_with_T = "Thiruvananthapuram","Tamil Nadu","Telangana","Tripura"]
+Starts_with_U = ["Uttarakhand","Uttar Pradesh"]
+Starts_with_W = "West Bengal"
+# Districts of Tamil Nadu
+Starts_with_A = "Ariyalur"
+Starts_with_C = ["Chengalpattu","Chennai","Coimbatore","Cuddalore"]
+Starts_with_D = ["Dharmapuri","Dindigul"]
+Starts_with_E = "Erode"
+Starts_with_K = ["Kallakurichi","Kancheepuram","Karur","Krishnagiri","Kanniyakumari"]
+Starts_with_M = ["Madurai","Mayiladuthurai"]
+Starts_with_N = ["Nagapattinam","Namakkal"]
+Starts_with_P = ["Perambalur","Pudukottai"]
+Starts_with_R = ["Ramanathapuram","Ranipet"]
+Starts_with_S = ["Salem","Sivagangai"]
+Starts_with_T = ["Tenkasi","Thanjavur","Theni","Thiruvallur","Thiruvarur","Thoothukudi","Trichirappalli","Thirunelveli","Tirupathur","Tiruppur","Tiruvannamalai","The Nilgiris"]
+Starts_with_V = ["Vellore","Viluppuram","Virudhunagar"]
 # USA states and its capitals
 Starts_with_A = ["Alabama","Alaska", "Arizona", "Arkansas", "Atlanta", "Augusta","Annapolis", "Austin", "Albany" ]
 Starts_with_B = ["Boise", "Baton Rouge","Boston","Bismarck"]
